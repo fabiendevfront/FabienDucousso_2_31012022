@@ -1,0 +1,34 @@
+/*********************/
+/* TABLET RESPONSIVE */
+/********************/
+
+@media screen and (max-width: 992px) {
+    .filters {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #lodgings {
+        flex-direction: column-reverse;
+    }
+
+    .popular-container {
+        width: 100%;
+    }
+
+    .rental-container {
+        width: 100%;
+    }
+
+
+    .activities-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .activities-card  {
+        width: 40%;
+        height: auto;
+    }
+}
