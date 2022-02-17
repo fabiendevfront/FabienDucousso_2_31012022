@@ -3,10 +3,88 @@
 /********************/
 
 @media screen and (max-width: 992px) {
+
+    .wrapper {
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    /**********/
+    /* HEADER */
+    /**********/
+
+    #header {
+        flex-direction: column;
+        margin: 25px 0 50px 0;
+    }
+
+    #logo img {
+        height: 80px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .menu {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .menu-items {
+        width: 50%;
+        padding: 3%;
+        border-top: none;
+        border-bottom: solid #F2F2F2 3px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .menu-items:hover {
+        border-bottom: solid #0065fc 3px;
+        border-top: none;
+    }
+
+    /******************/
+    /* FIND SECTION */
+    /*****************/
+
+    #find {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 10%;
+    }
+
+    .search {
+        width: 100%;
+        max-width: none;
+    }
+
     .filters {
+        width: 100%;
+        margin-top: 50px;
         flex-direction: column;
         align-items: flex-start;
     }
+
+    .filters-title {
+        margin: 0;
+    }
+
+    .filters-items {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .filters-btn {
+        margin-top: 20px;
+    }
+
+    /********************/
+    /* LODGINGS SECTION */
+    /*******************/
 
     #lodgings {
         flex-direction: column-reverse;
@@ -14,10 +92,24 @@
 
     .popular-container {
         width: 100%;
+        padding: 30px 10%;
+    }
+
+    .popular-items {
+        align-items: center;
+    }
+
+    .popular-card {
+        width: 100%;
     }
 
     .rental-container {
         width: 100%;
+        background-color: #ffffff;
+    }
+
+    .rental-card {
+        width: 45%;
     }
 
 

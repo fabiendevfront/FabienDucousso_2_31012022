@@ -4,57 +4,18 @@
 
 @media screen and (max-width: 768px) {
 
-    .wrapper {
-        padding: 0;
-    }
-
-    /**********/
-    /* HEADER */
-    /**********/
-
-    #header {
-        flex-direction: column;
-        justify-content: flex-start;
-        margin: 25px 0 50px 0;
-    }
-
-    #logo {
-        width: auto;
-        display: block;
-    }
-
-    #logo img {
-        width: auto;
-        height: 80px;
-        display: block;
-        margin: 0 auto;
-    }
-
-    .menu {
-        width: 100%;
-        justify-content: space-around;
-    }
-
-    .menu-items {
-        width: 50%;
-        padding: 3%;
-        border-top: none;
-        border-bottom: solid #F2F2F2 3px;
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .menu-items:hover {
-        border-bottom: solid #0065fc 3px;
-        border-top: none;
-    }
-
     /******************/
     /* FIND SECTION */
     /*****************/
 
+    #find {
+        padding: 0 5%;
+    }
+
     .search {
         position: relative;
+        width: 100%;
+        min-width: 415px;
     }
 
     .search-localistation {
@@ -66,7 +27,7 @@
     }
 
     .search-form {
-        width: 90%;
+        width: 80%;
         border-width: 1px 0;
         border-style: solid;
         border-color: #F2F2F2;
@@ -75,7 +36,7 @@
     .search-btn {
         width: auto;
         position: absolute;
-        right: -20px;
+        right: 25px;
         padding: 17px;
         background-color: #0065fc;
         color: #ffffff;
@@ -96,5 +57,21 @@
         margin: 0 auto;
         font-size: 20px;
         color: #ffffff;
+    }
+
+    /********************/
+    /* LODGINGS SECTION */
+    /*******************/
+
+    .popular-container {
+        padding: 30px 7%;
+    }
+
+    .rental-container {
+        padding: 30px 7%;
+    }
+
+    .rental-card {
+        width: 80%;
     }
 }
