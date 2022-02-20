@@ -46,9 +46,9 @@
         border-top: none;
     }
 
-    /******************/
+    /****************/
     /* FIND SECTION */
-    /*****************/
+    /***************/
 
     #find {
         display: flex;
@@ -88,7 +88,10 @@
 
     #lodgings {
         flex-direction: column-reverse;
+        margin-bottom: 0;
     }
+
+    /* POPULAR */
 
     .popular-container {
         width: 100%;
@@ -103,6 +106,8 @@
         width: 100%;
     }
 
+    /* RENTAL */
+
     .rental-container {
         width: 100%;
         background-color: #ffffff;
@@ -112,15 +117,39 @@
         width: 45%;
     }
 
+    .rental-card:nth-child(n+4) {
+        margin-bottom: 25px;
+    }
+
+    /**********************/
+    /* ACTIVITIES SECTION */
+    /**********************/
+
+    #activities {
+        padding: 3%;
+    }
 
     .activities-container {
+        height: auto;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
     }
 
     .activities-card  {
-        width: 40%;
-        height: auto;
+        width: 45%;
+        margin-bottom: 25px;
     }
+
+    .card-full,
+    .card-medium,
+    .card-small {
+        height: 200px;
+    }
+
+    .card-full img,
+    .card-medium img,
+    .card-small img {
+        height: 150px;
+    }
+
 }
