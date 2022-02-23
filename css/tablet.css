@@ -37,7 +37,7 @@
         padding: 3%;
         border-top: none;
         border-bottom: solid #F2F2F2 3px;
-        font-size: 25px;
+        font-size: 22px;
         text-align: center;
     }
 
@@ -59,7 +59,7 @@
 
     .search {
         width: 100%;
-        max-width: none;
+        max-width: 600px;
     }
 
     .filters {
