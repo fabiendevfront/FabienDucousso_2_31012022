@@ -37,27 +37,26 @@ h3 {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 26px;
     line-height: 40px;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 h3{
-    font-size: 15px;
-}
-
-.subtitle {
     font-size: 16px;
-    font-weight: 500;
 }
 
 .wrapper {
     padding: 0 3%;
 }
 
+.subtitle {
+    font-size: 16px;
+    font-weight: 500;
+}
 
 /**********/
 /* HEADER */
@@ -66,7 +65,6 @@ h3{
 #header {
     width: 100%;
     display: flex;
-    flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
     align-items: center;
@@ -83,7 +81,6 @@ h3{
 .menu {
     width: 50%;
     display: flex;
-    flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-end;
     align-items: center;
@@ -122,7 +119,6 @@ h3{
 
 .search {
     display: flex;
-    flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-start;
     align-items: center;
@@ -152,6 +148,8 @@ h3{
     border-width: 1px 0;
     border-style: solid;
     border-color: #F2F2F2;
+    padding: 0 5%;
+    color:#000000;
 }
 
 .search-form:focus {
@@ -164,13 +162,7 @@ h3{
 
 .search-form::placeholder {
     color:#000000;
-    padding: 0 5%;
 }
-
-.search-form:-moz-placeholder {
-    color:#000000;
-    padding: 0 5%;
-  }
 
 .search-form:focus::placeholder {
     opacity: 0;
@@ -198,19 +190,18 @@ h3{
 .filters {
     width: 100%;
     display: flex;
-    flex-direction: row;
 	justify-content: flex-start;
     align-items: center;
 }
 
 .filters-title {
+    font-size: 18px;
     width: 7%;
 }
 
 .filters-items {
     width: 93%;
     display: flex;
-    flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-start;
     align-items: center;
@@ -219,7 +210,6 @@ h3{
 
 .filters-btn {
     display: flex;
-    flex-direction: row;
 	justify-content: flex-start;
     align-items: center;
     padding-right: 20px;
@@ -244,24 +234,23 @@ h3{
 .filters-icon {
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    background-color: #deebff;
-    text-align: center;
     line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
     margin-left: -5px;
     margin-right: 15px;
+    background-color: #deebff;
     color: #0065fc;
 }
 
 .filters-text {
-    margin: 0 auto;
+    margin: 0;
 }
 
 /* INFORMATION */
 
 .information {
     display: flex;
-	flex-direction: row;
 	justify-content: flex-start;
     align-items: center;
 }
@@ -269,11 +258,10 @@ h3{
 .information-icon {
     width: 30px;
     height: 30px;
+    line-height: 30px;
     border-radius: 50%;
     border: solid 1px #F2F2F2;
     text-align: center;
-    vertical-align:middle;
-    line-height: 30px;
     margin-right: 15px;
     color: #0065fc;
 }
@@ -284,7 +272,6 @@ h3{
 
 #lodgings {
     display: flex;
-	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
     margin-bottom: 60px;
@@ -310,14 +297,15 @@ h3{
 .rental-items {
     margin: 28px 0 28px 0;
     display: flex;
-	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
 .rental-card {
-    width: 30%;
-    margin: 0 1% 25px 0;
+    position: relative;
+    width: 31%;
+    height: 240px;
+    margin-bottom: 25px;
     padding: 5px;
     border-radius: 20px;
     background-color: #ffffff;
@@ -338,13 +326,11 @@ h3{
     flex-direction: column;
 }
 
-.rental-picture {
-    margin-bottom: 10px;
-}
+
 
 .rental-picture img {
     width: 100%;
-    height: 120px;
+    height: 130px;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
 }
@@ -355,7 +341,7 @@ h3{
 
 .rental-description h3,
 .rental-description p,
-.rental-description .ratings {
+.rental-ratings {
     margin: 3px 0 5px 3%;
 }
 
@@ -370,25 +356,6 @@ h3{
     color: #0065fc;
 }
 
-.price {
-    font-weight: 700;
-}
-
-.ratings {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.ratings .full {
-    color: #0065fc;
-}
-
-.ratings .empty {
-    color: #D9D9D9;
-}
-
 /* POPULAR */
 
 .popular-container {
@@ -397,7 +364,6 @@ h3{
 
 .popular-head {
     display: flex;
-	flex-direction: row;
 	justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
@@ -413,6 +379,7 @@ h3{
 }
 
 .popular-card {
+    position: relative;
     padding: 5px;
     border-radius: 20px;
     background-color: #ffffff;
@@ -428,7 +395,6 @@ h3{
 .popular-card article {
     width: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: flex-start;
     align-items: center;
 }
@@ -453,13 +419,48 @@ h3{
     width: 50%;
 }
 
-.popular-description h3,
-.popular-description .ratings {
-    margin: 3px 0 3px 5%;
+.popular-description h3 {
+    margin: 3px 0 3px 10px;
 }
 
 .popular-description p {
-    margin: 3px 0 25px 5%;
+    margin: 3px 0 25px 10px;
+}
+
+.popular-ratings {
+    margin-left: 10px;
+}
+
+/* LODGINGS GENERAL */
+
+.price {
+    font-weight: 700;
+}
+
+.rental-ratings,
+.popular-ratings {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.rental-ratings {
+    bottom: 10px;
+}
+
+.popular-ratings {
+    bottom: 15px;
+}
+
+.rental-ratings .full,
+.popular-ratings .full {
+    color: #0065fc;
+}
+
+.rental-ratings .empty,
+.popular-ratings .empty {
+    color: #D9D9D9;
 }
 
 /**********************/

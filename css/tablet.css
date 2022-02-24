@@ -4,12 +4,16 @@
 
 @media screen and (max-width: 992px) {
 
+    /***********/
+    /* GENERAL */
+    /***********/
+
     .wrapper {
         padding: 0;
     }
 
     h1 {
-        font-size: 32px;
+        font-size: 28px;
     }
 
     /**********/
