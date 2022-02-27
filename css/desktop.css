@@ -46,7 +46,7 @@ h2 {
 }
 
 h3{
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .wrapper {
@@ -89,7 +89,7 @@ h3{
 .menu-items {
     padding: 5%;
     border-top: solid #ffffff 3px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -379,6 +379,7 @@ h3{
 }
 
 .popular-card {
+    height: 175px;
     position: relative;
     padding: 5px;
     border-radius: 20px;
@@ -395,7 +396,7 @@ h3{
 .popular-card article {
     width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -404,19 +405,19 @@ h3{
 }
 
 .popular-picture {
-    width: 50%;
+    width: 43%;
     line-height: 0;
 }
 
 .popular-picture img {
     width: 100%;
-    height: 150px;
+    height: 165px;
     border-radius: 20px 0 0 20px;
     object-fit: cover;
 }
 
 .popular-description {
-    width: 50%;
+    width: 55%;
 }
 
 .popular-description h3 {
@@ -515,7 +516,7 @@ h3{
     bottom: 14px;
     left: 19px;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .card-full {
@@ -542,6 +543,7 @@ h3{
 .card-small img {
     height: 78%;
 }
+
 /**********/
 /* FOOTER */
 /**********/
@@ -567,6 +569,11 @@ h3{
 
 .footer-container li {
     margin-bottom: 20px;
+}
+
+.footer-container a {
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .footer-container a:hover {
