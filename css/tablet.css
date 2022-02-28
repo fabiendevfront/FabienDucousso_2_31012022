@@ -102,27 +102,55 @@
         padding: 30px 10%;
     }
 
-    .popular-items {
-        align-items: center;
-    }
-
     .popular-card {
         width: 100%;
+        height: 255px;
+    }
+
+    .popular-card article {
+        height: 100%;
+    }
+
+    .popular-picture {
+        height: 100%;
+    }
+
+    .popular-picture img {
+        height: 245px;
+    }
+
+    .popular-description {
+        width: 50%;
+        padding: 2%;
+    }
+
+    .popular-ratings {
+        bottom: 65px;
     }
 
     /* RENTAL */
 
     .rental-container {
         width: 100%;
+        padding: 5%;
         background-color: #ffffff;
     }
 
     .rental-card {
-        width: 45%;
+        width: 48%;
+        height: 350px;
     }
 
     .rental-card:nth-child(n+4) {
         margin-bottom: 25px;
+    }
+
+    .rental-picture img {
+        height: 245px;
+    }
+
+    .rental-description {
+        margin: 10px 0;
     }
 
     /**********************/
@@ -130,30 +158,35 @@
     /**********************/
 
     #activities {
-        padding: 3%;
+        padding: 5%;
+        margin-bottom: 0;
     }
 
-    .activities-container {
+    .activities-items {
         height: auto;
-        display: flex;
         flex-direction: row;
+        align-content: normal;
     }
 
     .activities-card  {
-        width: 45%;
+        width: 48%;
         margin-bottom: 25px;
     }
 
     .card-full,
     .card-medium,
     .card-small {
-        height: 200px;
+        height: 290px;
     }
 
     .card-full img,
     .card-medium img,
     .card-small img {
-        height: 150px;
+        height: 83%;
+    }
+
+    .activities-card figcaption {
+        font-size: 17px;
     }
 
 }

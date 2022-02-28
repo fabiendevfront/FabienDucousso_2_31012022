@@ -4,6 +4,22 @@
 
 @media screen and (max-width: 768px) {
 
+    /**********/
+    /* HEADER */
+    /**********/
+
+    #logo {
+        margin-bottom: 20px;
+    }
+
+    #logo img {
+        height: 60px;
+    }
+
+    .menu-items {
+        font-size: 19px;
+    }
+
     /******************/
     /* FIND SECTION */
     /*****************/

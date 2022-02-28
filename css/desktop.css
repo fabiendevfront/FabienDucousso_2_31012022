@@ -335,14 +335,10 @@ h3{
     object-fit: cover;
 }
 
-.rental-description {
-    margin-bottom: 10px;
-}
-
 .rental-description h3,
 .rental-description p,
 .rental-ratings {
-    margin: 3px 0 5px 3%;
+    margin: 4px 0 5px 3%;
 }
 
 .rental-more {
@@ -474,15 +470,15 @@ h3{
 }
 
 .activities-title {
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
-.activities-container {
+.activities-items {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: space-between;
     justify-content: space-between;
+    align-content: space-between;
     height: 600px;
 }
 
