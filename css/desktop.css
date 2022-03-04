@@ -1,4 +1,3 @@
-
 /***********/
 /* GENERAL */
 /***********/
@@ -223,7 +222,7 @@ h3{
     color: #ffffff;
     background-color: #0065fc;
     cursor: pointer;
-    transition: all 0.5s ease-out;
+    transition: all 0.8s ease-in;
 }
 
 .filters-btn:last-child {
@@ -315,6 +314,11 @@ h3{
     box-shadow: 1px 1px 20px #3d3b3b;
 }
 
+.rental-card:hover .rental-picture img {
+    opacity: 0.5;
+    transition: all 0.8s ease-out;
+}
+
 .rental-card:nth-child(n+4) {
     margin-bottom: 0;
 }
@@ -397,6 +401,11 @@ h3{
 .popular-card:hover {
     transition: all 0.5s ease-out;
     box-shadow: 1px 1px 20px #3d3b3b;
+}
+
+.popular-card:hover .popular-picture img {
+    opacity: 0.5;
+    transition: all 0.8s ease-out;
 }
 
 .popular-card article {
@@ -501,6 +510,11 @@ h3{
 .activities-card:hover {
     transition: all 0.5s ease-out;
     box-shadow: 1px 1px 20px #3d3b3b;
+}
+
+.activities-card:hover.activities-card img{
+    opacity: 0.5;
+    transition: all 0.8s ease-out;
 }
 
 .activities-card figure {
