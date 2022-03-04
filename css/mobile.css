@@ -13,7 +13,7 @@
     }
 
     #logo img {
-        height: 60px;
+        height: 65px;
     }
 
     .menu-items {
@@ -25,12 +25,17 @@
     /*****************/
 
     #find {
-        padding: 0 5%;
+        padding: 0 7%;
     }
+
+    .find-head h1 {
+        margin-top: 0;
+    }
+
+    /* SEARCH FORM */
 
     .search {
         position: relative;
-        width: 100%;
         min-width: 300px;
     }
 
@@ -47,7 +52,7 @@
         position: absolute;
         right: 15px;
         padding: 17px;
-        border-radius: 30% 30% 30% 30%;
+        border-radius: 15px;
     }
 
     .search-btn:hover {
@@ -59,7 +64,7 @@
     }
 
     .search-icon {
-        display: inline-block;
+        display: block;
         font-size: 20px;
         margin: 0 auto;
     }

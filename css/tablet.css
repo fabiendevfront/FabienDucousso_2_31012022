@@ -76,9 +76,19 @@
         padding: 0 10%;
     }
 
+    /* SEARCH FORM */
+
     .search {
         width: 100%;
     }
+
+    .search-localisation,
+    .search-form,
+    .search-btn {
+        font-size: 20px;
+    }
+
+    /* FILTERS */
 
     .filters {
         flex-direction: column;
@@ -99,11 +109,6 @@
     .filters-btn {
         font-size: 20px;
         margin-top: 20px;
-    }
-
-    .rental-more {
-        font-size: 22px;
-        margin: 0;
     }
 
     /********************/
@@ -173,6 +178,10 @@
         font-size: 19px;
     }
 
+    .rental-more {
+        font-size: 22px;
+    }
+
     /**********************/
     /* ACTIVITIES SECTION */
     /**********************/
@@ -185,7 +194,6 @@
     .activities-items {
         height: auto;
         flex-direction: row;
-        align-content: normal;
     }
 
     .activities-card  {

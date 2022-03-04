@@ -114,7 +114,7 @@ h3{
     margin-top: 25px;
 }
 
-/* FORM */
+/* SEARCH FORM */
 
 .search {
     display: flex;
@@ -130,7 +130,7 @@ h3{
 .search-form,
 .search-btn {
     height: 100%;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -271,12 +271,9 @@ h3{
 
 #lodgings {
     display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
     margin-bottom: 60px;
 }
-
-/* RENTAL */
 
 .rental-container,
 .popular-container {
@@ -284,6 +281,8 @@ h3{
     padding: 2.2%;
     border-radius: 18px;
 }
+
+/* RENTAL */
 
 .rental-container {
     width: 68%;
@@ -294,10 +293,10 @@ h3{
 }
 
 .rental-items {
-    margin: 28px 0 28px 0;
     display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+    margin: 28px 0 28px 0;
 }
 
 .rental-card {
@@ -354,7 +353,7 @@ h3{
 .rental-more {
     display: inline-block;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 800;
     margin-top: 25px;
 }
 
