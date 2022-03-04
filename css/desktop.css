@@ -162,6 +162,10 @@ h3{
     color:#000000;
 }
 
+.search-form::-moz-placeholder {
+    opacity: 1;
+}
+
 .search-form:focus::placeholder {
     opacity: 0;
 }
